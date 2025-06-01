@@ -1,0 +1,52 @@
+Ex.No: 1 - INSTALLATION OF DATA ANALYSIS AND VISUALIZATION TOOL
+Aim:
+To install Python and essential libraries for data analysis and visualization.
+
+Packages Required:
+
+jupyter
+
+jupyterlab
+
+numpy
+
+scipy
+
+pandas
+
+matplotlib
+
+seaborn
+
+Procedure:
+
+Install Anaconda which includes Python and most required packages.
+
+After installation, open Anaconda Navigator.
+
+Install additional packages using:
+
+bash
+Copy code
+conda install -c conda-forge altair vega_datasets
+Launch JupyterLab.
+
+Run the following code to verify installation:
+
+Program:
+
+python
+Copy code
+import numpy
+import scipy
+import pandas
+import matplotlib
+import seaborn
+print("all good")
+Output:
+
+css
+Copy code
+all good
+Result:
+Thus, Python and required libraries were successfully installed and verified.
